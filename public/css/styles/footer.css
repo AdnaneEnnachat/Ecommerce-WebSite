@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+body{
+    padding:0;
+    margin: 0;
+
+    font-family: 'Work Sans', sans-serif;
+    background-color: #fff;
+    min-width: 350px;
+
+
+}
+/* FOOTER */
+.myfooter{
+    margin-top:100px;
+    background-color:#12032a;
+    width: 100%;
+
+}
+#footer{
+    background-color:#12032a;
+}
+.footer-container .footer-info  .footer-title h4{
+    margin-top:45px;
+    font-weight:400;
+    color: #fff;
+    font-size: 18px;
+}
+.footer-container .footer-info  .footer-title img{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+.footer-container .footer-info  .footer-title img::after{
+    content: "";
+}
+.footer-container .footer-info  .footer-title h4::after{
+    content: "";
+    position: relative;
+    display: block;
+    border: 1px solid #fff;
+    margin-top: 3px;
+    width: calc(100%/2);
+}
+.footer-container .footer-info .footer-elements h4{
+    font-weight:600;
+    color: #fff;
+}
+
+.footer-container .footer-info .footer-elements i{
+    margin-right: 10px;
+}
+.footer-container .footer-info .footer-elements ul{
+    padding-left:0;
+}
+.myfooter .footer-container .footer-info .footer-elements ul:nth-child(1){
+    line-height: 1.6;
+    letter-spacing: 1px;
+
+}
+.footer-container .footer-info .footer-elements li{
+    display: block;
+    color: #fff;
+    font-size: 14px;
+    opacity: .6;
+}
+.footer-container .footer-info .footer-elements li:hover{
+    opacity: 1;
+}
+.footer-container .footer-info .footer-elements ul a{
+    text-decoration:none;
+    color: #fff;
+    font-size: 14px;
+    line-height: 0;
+}

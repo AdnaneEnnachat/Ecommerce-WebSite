@@ -1,0 +1,101 @@
+.login-form{
+    display: flex;
+    justify-content: center;
+}
+.login-form .content-login span{
+    text-align: center;
+    display: block;
+    margin-top: 45px;
+    margin-bottom: 20px;
+    font-size: 29px;
+    font-weight: 400;
+}
+.login-form .content-login .login-form-content {
+    border: 1px solid #fff;
+    padding: 40px 45px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.login-form .login-form-content input[type=text],.login-form .login-form-content input[type=password]{
+    width: 350px;
+    padding: 8px 20px;
+    margin-top: 11px;
+    font-size: 15px;
+    border: none;
+    border: 1px solid #12032a;
+    opacity: .9;
+}
+.login-form .login-form-content input:focus{
+    outline: none;
+}
+.login-form .login-form-content button{
+    margin-top: 30px;
+    width: 100%;
+    padding: 13px;
+    border: 1px solid #12032a;
+    background-color: #12032a;
+    color: #ffffff;
+}
+.login-form .login-form-content button:hover{
+    border: 1px solid #12032a;
+    background-color: #ffffff;
+    color: #12032a;
+    transition: all .3s;
+}
+.login-form .login-form-content label{
+    margin-top: 10px;
+    font-size: 15px;
+}
+.login-form .login-form-content .check{
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.login-form .login-form-content .check label{
+    font-size: 14px;
+}
+.login-form .login-form-content .check a{
+    display: block;
+    font-size: 14px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #83299b;
+}
+.login-form .login-form-content .check input[type=checkbox]{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.content-login span::after {
+    content: '';
+    border: 2px solid #12032a;
+    position: relative;
+    width: 25%;
+    display: block;
+    margin: 0 auto;
+
+}
+@media (max-width: 470px){
+    .login-form .login-form-content input[type=text], .login-form .login-form-content input[type=password]{
+        width: 250px;
+    }
+}
+@media (max-width: 350px){
+    .login-form .login-form-content input[type=text], .login-form .login-form-content input[type=password]{
+        width: 200px;
+    }
+    .login-form .login-form-content .check a{
+        font-size: 10px;
+    }
+    .login-form .login-form-content .check label{
+        font-size: 10px;
+    }
+    .login-form .login-form-content .check input[type=checkbox]{
+        width: 10px;
+    }
+}
+
+.errors{
+    font-size: 14px;
+    color: red;
+    margin-top: 5px;
+    margin-bottom: -20px;
+}
